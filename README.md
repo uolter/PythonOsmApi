@@ -7,9 +7,9 @@ this is basically a fork of the official Open Street Map python client where I a
 through a standard http proxy
 This could be a very common needed when you are in a corporate network.
 
-The official documentation and source code is available at this url:
-http://wiki.openstreetmap.org/wiki/PythonOsmApi
+The official documentation and source code is available at this url: http://wiki.openstreetmap.org/wiki/PythonOsmApi
 
+When you want to set the http proxy just set host (or ip)  and port in the object constructor like in the example below: 
 
 ```python
 MyApi = OsmApi.OsmApi(
@@ -23,6 +23,3 @@ MyApi = OsmApi.OsmApi(
         print node
 
 ```
-
-
-
