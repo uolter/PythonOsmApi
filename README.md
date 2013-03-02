@@ -23,3 +23,5 @@ MyApi = OsmApi.OsmApi(
         print node
 
 ```
+
+This software is available under the Open Database License and this is the [copyright page](http://www.openstreetmap.org/copyright)
